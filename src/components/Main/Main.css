@@ -40,3 +40,51 @@ dl {
     color: #A5A5A5;
     height: 10%;
 }
+
+.DayFood {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Rectangle {
+    background-color: #028090;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.FoodTime {
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
+.ScheduleImg {
+    width: 90%;
+    height: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    background-color:#03030a;
+    filter: brightness(0.8);
+}
+
+.ChangeLink {  
+    color: #FAFAFA;
+    text-decoration: none;
+    margin-left: 60%;
+    padding-top: 3em;
+    font-weight: bold;
+}
+
+.FoodName {
+    position: absolute;
+    top: 12%;
+    width: 80%;
+    border-radius: 20px;
+    left: 10%;
+}
