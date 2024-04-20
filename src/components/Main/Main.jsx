@@ -43,7 +43,7 @@ function DayFood () {
 }
 
 function Food (props) {
-    var ChangeLink = '/change/' + props.time;
+    var ChangeLink = '/change';
     return (
         <div className="Rectangle">
             <h2 className='FoodTime'>{props.time}</h2>

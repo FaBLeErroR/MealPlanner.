@@ -10,6 +10,7 @@ import Filtres from './components/Filtres/Filtres'
 import Recipes from './components/Recipes/Recipes'
 import Settings from './components/Settings/Settings'
 import Recepi from './components/Recepi/Recepi'
+import ChangeFood from './components/ChangeFood/ChangeFood'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/recipes" element={ <Recipes /> }/>
             <Route path="/settings" element={ <Settings /> }/>
             <Route path="/food" element={ <Recepi /> }/>
+            <Route path="/change" element={ <ChangeFood /> }/>
         </Routes>
      
     </div>
