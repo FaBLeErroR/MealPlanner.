@@ -12,3 +12,13 @@
     height: 3em;
     margin-right: 100%;
 }
+
+.userButton {
+    margin-top: 1em;
+    width: 15%;
+    border-color: #07A37E;
+    background-color: white;
+    border-radius: 10px;
+    height: 3em;
+    margin-right: 100%;
+}

@@ -37,8 +37,16 @@ dl {
 .Days{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 20px 20px 0 0/ 20px 20px 0 0;
+    background-color: #FAFAFA;
     color: #A5A5A5;
-    height: 10%;
+    height: 2em;
+    padding-top: 1em;
+}
+
+.daysLinks {
+    color: #A5A5A5;
+    text-decoration: none;
 }
 
 .DayFood {
